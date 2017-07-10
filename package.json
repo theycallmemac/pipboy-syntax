@@ -1,0 +1,19 @@
+{
+  "name": "pipboy-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A theme to emulate the pip boy design from the Fallout game series.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "fallout",
+    "pipboy",
+    "pip",
+    "boy"
+  ],
+  "repository": "https://github.com/theycallmemac/pipboy-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
