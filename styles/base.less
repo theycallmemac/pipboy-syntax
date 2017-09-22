@@ -1,11 +1,11 @@
 @import "syntax-variables";
 
 atom-text-editor {
-  background-color: @syntax-background-color;
+
   background: url('https://images3.alphacoders.com/639/thumb-1920-639657.jpg');
-  background-size: 1010px 740px;
-  background-position: left -25px;
+  background-size: 1010px 800px;
   background-repeat: no-repeat;
+  background-position: left -20px;
 
 
   color: @syntax-text-color;
@@ -25,10 +25,10 @@ atom-text-editor {
   .gutter {
     background-color: @green;
     color: @syntax-gutter-text-color;
- 
+
     .line-number {
       &.cursor-line {
-        background-color: @syntax-gutter-background-color-selected;
+        background-color: #1e472c;
         color: @syntax-gutter-text-color-selected;
       }
 
@@ -53,7 +53,7 @@ atom-text-editor {
   }
 
   .selection .region {
-    background-color: @syntax-selection-color;
+    background-color: #1e472c;
   }
 }
 
@@ -305,8 +305,9 @@ atom-text-editor {
 
 // Mini editor
 
-atom-text-editor[mini] .scroll-view {
-
+atom-text-editor[mini]  {
   color: @lgreen;
+  background-color: #063314;
+  background-image: url();
   padding-left: 20px;
 }
