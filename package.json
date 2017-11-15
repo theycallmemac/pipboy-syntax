@@ -1,7 +1,7 @@
 {
   "name": "pipboy-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A theme to emulate the pip boy design from the Fallout game series.",
   "keywords": [
     "syntax",
